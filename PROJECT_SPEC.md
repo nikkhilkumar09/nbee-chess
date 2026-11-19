@@ -162,6 +162,7 @@ Build progressively, following a professional development workflow:
 ---
 
 ## 8. Code Quality
+- **Minimal & Essential Code Only**: Write minimal, concise, and focused code. Do not add unnecessary boilerplate, over-engineering, or extra fluff that causes confusion. Keep every file short, clean, readable, and strictly purposeful.
 - Use clean, modern JavaScript (ES6+), clean architecture, reusable components, modular services, proper error handling, logging and automated tests.
 - Separate chess logic, UI, game state and networking.
 - Run Prettier before finalizing:
