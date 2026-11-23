@@ -1,14 +1,24 @@
 import express from 'express';
 import cors from 'cors';
+import authRoutes from './routes/authRoutes.js';
+import userRoutes from './routes/userRoutes.js';
+import errorMiddleware from './middlewares/errorMiddleware.js';
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-// Health check endpoint
+// Routes
+app.use('/api/auth', authRoutes);
+app.use('/api/users', userRoutes);
+
+// Health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
+
+// Centralised error handler
+app.use(errorMiddleware);
 
 export default app;

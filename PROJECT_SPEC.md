@@ -1,4 +1,4 @@
-# ZeroNine Chess – Multiplayer Chess Platform
+# ZN Chess – Multiplayer Chess Platform
 
 ---
 
@@ -66,7 +66,7 @@ server/
 │   │   ├── authMiddleware.js
 │   │   └── errorMiddleware.js
 │   ├── models/             # Mongoose schemas & data models
-│   │   ├── User.js         # User credentials, ELO ratings, stats
+│   │   ├── userModel.js    # User credentials and profile
 │   │   └── Game.js         # Stored matches, PGN, players, results
 │   ├── routes/             # Express API route declarations
 │   │   ├── authRoutes.js
@@ -101,7 +101,7 @@ server/
 - Online multiplayer, random matchmaking, private rooms and friend invitations.
 - Friend lists, real-time chat, online presence and game notifications.
 - Chess clocks: Bullet, Blitz, Rapid and Classical.
-- Profiles, ELO ratings, achievements, statistics and leaderboards.
+- Profiles, basic statistics (wins/losses/draws), and achievements (ELO/rating deferred).
 - Game history, PGN, replay, spectators, draw offers, resignations and rematches.
 - Daily puzzles, tactical challenges, puzzle streaks and blindfold chess.
 - Reconnection and recovery after network interruptions.
@@ -196,6 +196,6 @@ Keep the core chess experience fair, reliable and enjoyable.
 ---
 
 ## Final Goal
-Build ZeroNine Chess into a technically impressive, scalable and entertaining cross-platform chess platform that demonstrates strong software engineering, real-time systems, AI integration and creative product thinking—and is genuinely enjoyable to play.
+Build ZN Chess into a technically impressive, scalable and entertaining cross-platform chess platform that demonstrates strong software engineering, real-time systems, AI integration and creative product thinking—and is genuinely enjoyable to play.
 
 **Try something new like funny/exaggerate playing to hook users.**
