@@ -21,6 +21,6 @@ io.on('connection', (socket) => {
 
 connectDB().then(() => {
   httpServer.listen(PORT, () => {
-    console.log(`ZN Chess server running on port ${PORT}`);
+    console.log(`NBee Chess server running on port ${PORT}`);
   });
 });

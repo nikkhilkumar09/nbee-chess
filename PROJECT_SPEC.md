@@ -1,4 +1,4 @@
-# ZN Chess – Multiplayer Chess Platform
+# NBee Chess – Multiplayer Chess Platform
 
 ---
 
@@ -196,6 +196,6 @@ Keep the core chess experience fair, reliable and enjoyable.
 ---
 
 ## Final Goal
-Build ZN Chess into a technically impressive, scalable and entertaining cross-platform chess platform that demonstrates strong software engineering, real-time systems, AI integration and creative product thinking—and is genuinely enjoyable to play.
+Build NBee Chess into a technically impressive, scalable and entertaining cross-platform chess platform that demonstrates strong software engineering, real-time systems, AI integration and creative product thinking—and is genuinely enjoyable to play.
 
 **Try something new like funny/exaggerate playing to hook users.**

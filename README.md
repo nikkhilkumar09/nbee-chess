@@ -1,4 +1,4 @@
-# ZN Chess ♟️
+# NBee Chess ♟️
 
 > Cross-platform, real-time multiplayer chess platform with AI personalities, dramatic gameplay effects, and intelligent generative chess assistance.
 
