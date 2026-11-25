@@ -67,7 +67,7 @@ server/
 │   │   └── errorMiddleware.js
 │   ├── models/             # Mongoose schemas & data models
 │   │   ├── userModel.js    # User credentials and profile
-│   │   └── Game.js         # Stored matches, PGN, players, results
+│   │   └── gameModel.js    # Stored matches, move history, players, results
 │   ├── routes/             # Express API route declarations
 │   │   ├── authRoutes.js
 │   │   ├── gameRoutes.js
